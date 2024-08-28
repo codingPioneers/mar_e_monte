@@ -1,0 +1,38 @@
+
+  
+  .shrinking-header {
+    width: 100%;
+    padding: 60px 0;
+    background: #fff;
+    border-bottom: 1px solid #e1e1e1;
+    transition: all 0.4s ease-in-out;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+  }
+  
+  
+  
+  .shrink {
+    padding: 20px 0;
+  }
+  
+  .shrink h1 {
+    font-size: 25px;
+  }
+  
+  .shrinking-container {
+    width: 40%;
+    margin: 180px auto;
+  }
+  
+  p {
+    margin: 0 0 40px 0;
+    line-height: 24px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  

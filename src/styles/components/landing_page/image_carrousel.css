@@ -1,0 +1,54 @@
+.supplier-carousel {
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 5rem;
+  }
+  
+
+  
+  .supplier-carousel h3 {
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .supplier-carousel .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .supplier-carousel img {
+    max-width: 100%;
+    max-height: 150px;
+    margin: 0 auto; /* Ensure images are centered */
+  }
+  
+  .supplier-carousel .slick-track {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 950px) {
+    .supplier-carousel {
+      width: 100%;
+    }
+  
+    .supplier-carousel img {
+      max-height: 90px;
+    }
+  }
+  
+
+  .title{
+ 
+      font-size: 26px;
+      font-weight: 900;
+      margin-bottom: 20px;
+      color: #000;
+  }
+      
+    
+  

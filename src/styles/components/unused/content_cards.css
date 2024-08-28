@@ -1,0 +1,107 @@
+/* styles.css */
+
+.content {
+    align-items: flex-start;
+    position: relative;
+    text-align: center;
+    color: #000;
+    z-index: 2;
+  }
+  
+  .heading {
+    font-size: 3rem;
+    margin-top: 0;
+  }
+  
+  .paragraph {
+    font-size: 1.6rem;
+    text-align: justify;
+    margin-top: 2rem;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0rem 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(50% - 20px);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #004792; /* Cor do ícone ajustada */
+  }
+  
+  @media (max-width: 800px) {
+
+    .content{
+        align-items: flex-start;
+        position: relative;
+        text-align: center;
+        color: #000;
+        z-index: 2;
+        padding: 2rem 10% 0rem;
+        margin-top: 0;
+    }
+
+    .heading {
+        font-size: 7vw; /* Exemplo: fonte será 4% da largura da viewport */
+        margin-top: 0;
+      }
+
+      .card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: calc(50% - 50px);
+        max-width: 300px;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      
+      .card h3 {
+        color: #333;
+        font-size: 4.5vw;
+        margin-bottom: 10px;
+      }
+      
+      .card p {
+        color: #666;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+  }
+  

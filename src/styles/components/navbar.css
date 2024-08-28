@@ -1,0 +1,167 @@
+/* Estilo padrão da navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* 100% de largura para a navbar */
+  z-index: 100;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Wrapper para os elementos dentro da navbar */
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%; /* 90% da largura para dar 5% de margem em cada lado */
+  margin: 0 auto; /* Centraliza o conteúdo da navbar */
+}
+
+/* Cor de fundo quando o usuário começa a rolar a página */
+.navbar.scrolled {
+  background-color: #394248de;
+}
+
+/* Visibilidade da navbar */
+.navbar.visible {
+  transform: translateY(0);
+}
+
+.navbar.hidden {
+  transform: translateY(-100%);
+}
+
+.navbar-brand {
+  font-size: 45px;
+  text-decoration: none;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: auto;
+  padding: 0;
+}
+
+.nav-item {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.nav-link:hover {
+  color: #1c77ab;
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #1c77ab;
+  transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Botões de Menu e Fechar */
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon, .close-btn {
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .navbar-nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+    color: #fff;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #394248dd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    animation: fadeIn 0.3s;
+  }
+
+  .mobile-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 30px;
+    right: 5%;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+
+  .navbar-brand {
+    font-size: 30px;
+  }
+
+  .mobile-navbar-brand {
+    position: absolute;
+    top: 32px;
+    left: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}

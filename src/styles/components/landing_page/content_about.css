@@ -1,0 +1,124 @@
+/* AboutSection.css */
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  margin: 7rem 0;
+}
+
+.about-left-column {
+  position: relative;
+  width: 50%;
+
+  align-self: start;
+}
+
+.food-image {
+  width: 65%;
+  border-radius: 6px;
+}
+
+.top-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.bottom-image {
+  position: absolute;
+  top: 6rem;
+  right: 0px;
+  z-index: 3;
+}
+.veg-image {
+  position: absolute;
+  width:  40%;
+  top: 0;
+  right: 0px;
+  z-index: 2;
+}
+
+.about-right-column {
+  width: 45%;
+}
+
+
+p {
+  font-size: 1em;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background: #f7f7f7;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(50% - 10px); /* Deixa espaço entre os cards */
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.card-icon {
+  margin-right: 10px;
+  color: #1c77ab;
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 950px) {
+  .about-section {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    margin: 0rem 0;
+  }
+
+  .about-left-column{
+    width: 100%;
+    height: auto;
+    position: relative;
+    align-self: center;
+  }
+
+
+  .about-right-column {
+    width: 100%;
+    height: auto;
+    position: relative;
+    align-self: center;
+    margin-bottom: 5rem;
+  }
+
+
+  .food-image {
+    position: absolute;
+    max-height: 100%;
+  }
+
+  .cards {
+    justify-content: center;
+  }
+
+  .card {
+    width: calc(50% - 10px); /* Mantém os cards lado a lado em telas menores */
+    font-size: 14px;
+  }
+
+  .cards .card:nth-child(odd) {
+    margin-right: 0;
+  }
+}

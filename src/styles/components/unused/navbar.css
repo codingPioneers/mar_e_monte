@@ -1,0 +1,106 @@
+/* Global styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    z-index: 101;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .toggle-button {
+    display: none;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0 25px;
+    display: flex;
+  }
+  
+  .menu li {
+    margin: 0 1rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .menu li a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .menu .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 1rem 2rem;
+    width: max-content;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 950px) {
+    .navbar ul {
+      flex-direction: column;
+      align-items: center;
+
+    }
+  
+    .navbar li {
+      margin: 1rem 0;
+    }
+  
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 1rem 0;
+    }
+  
+    .menu.visible {
+      display: flex;
+      align-items: center;
+    }
+  
+  
+    .toggle-button {
+      display: block;
+      text-align: center;
+      font-size: 1.5rem;
+      color: white;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  /* Existing CSS styles */
+
+.menu .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 1rem 2rem;
+    width: max-content;
+  }
+  

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+
+.roboto-font {
+  font-family: 'Roboto', sans-serif;
+}
+
+.nerko-one-regular {
+  font-family: "Nerko One";
+  font-weight: 700;
+  font-style: normal;
+}
