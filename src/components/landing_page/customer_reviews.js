@@ -34,6 +34,8 @@ const Testimonials = () => {
   }, []);
 
   return (
+    <div className='testimonial-container'>
+
     <div className="testimonials-section">
       <div className="testimonials-left">
         <h2 className='mini-ver'>Testemunhos</h2>
@@ -66,6 +68,7 @@ const Testimonials = () => {
         permitem-lhe saborear todas as nossas delícias com 
         apenas um prato.</p>
   </div>
+</div>
 </div>
 
     </div>

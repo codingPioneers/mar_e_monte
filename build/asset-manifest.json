@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cb99ca6.css",
-    "main.js": "/static/js/main.134baa0c.js",
+    "main.css": "/static/css/main.14967540.css",
+    "main.js": "/static/js/main.d811c50c.js",
     "static/js/453.c791b8e6.chunk.js": "/static/js/453.c791b8e6.chunk.js",
+    "static/media/grilledFish.jpg": "/static/media/grilledFish.3df8de4624c520cb474c.jpg",
     "static/media/newHero.jpg": "/static/media/newHero.3c2d26c00a5c22165956.jpg",
+    "static/media/raw.jpg": "/static/media/raw.91bf9a3313b179b9e8a5.jpg",
     "static/media/meny-header.jpg": "/static/media/meny-header.9ddcf2545c6ec94ee540.jpg",
     "static/media/about-header.jpg": "/static/media/about-header.e4e29bcf6e13f9b3c443.jpg",
     "static/media/food2.jpg": "/static/media/food2.39d19b90057822ae10f2.jpg",
+    "static/media/churrasqueria.jpg": "/static/media/churrasqueria.90d16a341d1a6ba7b28e.jpg",
     "static/media/food8.jpg": "/static/media/food8.0bb69626cea94c168561.jpg",
     "static/media/food5.jpg": "/static/media/food5.7d25f5d92f493ec5b9dc.jpg",
     "static/media/food3.jpg": "/static/media/food3.de12f95469f9e00b4acd.jpg",
@@ -28,12 +31,12 @@
     "static/media/p6.png": "/static/media/p6.9376311473cdc0313184.png",
     "static/media/p4.png": "/static/media/p4.ed7351c2c44c9806e13d.png",
     "index.html": "/index.html",
-    "main.2cb99ca6.css.map": "/static/css/main.2cb99ca6.css.map",
-    "main.134baa0c.js.map": "/static/js/main.134baa0c.js.map",
+    "main.14967540.css.map": "/static/css/main.14967540.css.map",
+    "main.d811c50c.js.map": "/static/js/main.d811c50c.js.map",
     "453.c791b8e6.chunk.js.map": "/static/js/453.c791b8e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cb99ca6.css",
-    "static/js/main.134baa0c.js"
+    "static/css/main.14967540.css",
+    "static/js/main.d811c50c.js"
   ]
 }

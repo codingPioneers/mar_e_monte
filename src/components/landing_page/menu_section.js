@@ -18,9 +18,7 @@ const MenuSection = () => {
           </p>
           <a href="/menu" className="menu-button">Ver menu</a>
         </div>
-        <div className="menu-image">
-          <img src={foodPhoto} alt="Prato delicioso" />
-        </div>
+       
       </div>
     </section>
   );

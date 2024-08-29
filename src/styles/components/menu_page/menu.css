@@ -2,7 +2,7 @@
   position: relative;
   margin-top: -100px; /* Remove negative margin if not needed */
   width: 100vw; /* Ensure it spans the full viewport width */
-  height: 50vh; /* Ensure it spans the full viewport height */
+  height: 80vh; /* Ensure it spans the full viewport height */
   overflow: hidden; /* Hide overflow to prevent any unwanted scrollbars */
   display: flex;
   align-items: center;
@@ -12,7 +12,6 @@
   width: 100vw; /* Set the width to 100% of the viewport width */
   height: auto; /* Set the height to 100% of the viewport height */
   object-fit: cover; /* Ensure the image covers the entire container without stretching */
-  transform: rotate(90deg); /* Keep the 90-degree rotation */
 }
 
 .header-overlay {

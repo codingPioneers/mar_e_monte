@@ -10,6 +10,8 @@ import SupplierCarousel from '../components/landing_page/image_carrousel.js';
 import Testimonials from '../components/landing_page/customer_reviews.js';
 import Footer from '../components/geral/footer.js';
 
+import ImageBackground from '../components/landing_page/image_backgorund/image_backround.js';
+import ImageBackground2 from '../components/landing_page/image_backgorund/imga_backgorund2.js';
 /* Assets */
 import h1 from '../assets/heroSection/hero1.png';
 import h2 from '../assets/heroSection/hero2.png';
@@ -32,17 +34,19 @@ const LandingPage = () => {
 
         <Header />
         <AboutSection />
+        <ImageBackground/>
+
         <MenuSection />
+        <Testimonials />
 
         <div className="container-wrapper">
-          <Testimonials />
         </div>
+        <ImageBackground2/>
 
         <LandingGallery />
 
-      <div className="container-wrapper">
         <SupplierCarousel />
-      </div>
+
 
       <Footer />
     </>

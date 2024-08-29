@@ -33,6 +33,7 @@ const SupplierCarousel = () => {
   };
 
   return (
+    <div className='supplier-container'>
     <div className="supplier-carousel">
       <h2 className='title' >Parceiros & Clientes</h2>
       <h3>Porque trabalhamos com os melhores</h3>
@@ -56,6 +57,7 @@ const SupplierCarousel = () => {
           <img src={p6} alt="Supplier 6" />
         </div>
       </Slider>
+    </div>
     </div>
   );
 };

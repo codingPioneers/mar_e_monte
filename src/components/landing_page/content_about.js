@@ -15,7 +15,8 @@ import img2 from '../../assets/gallerySection/food5.jpg'
 
 const AboutSection = () => {
     return (
-        <div className="about-section">
+       <div className='about-container'>
+       <div className="about-section">
           <div className="about-left-column">
             <img src={testImage} alt="Food 1" className="food-image top-image" />
             <img src={img2} alt="Food 2" className="food-image bottom-image" />
@@ -52,6 +53,7 @@ const AboutSection = () => {
           </div>
             </div>
           </div>
+        </div>
         </div>
       );
     };

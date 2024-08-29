@@ -1,12 +1,18 @@
 
 
+
 .hero-container {
-  position: relative; 
+  position: relative;
   margin-top: -100px;
-  margin-bottom: 5rem;
-  width: 100%; 
-  height: 100vh; 
-  overflow: hidden; 
+  width: 100%;
+  height: 110vh; /* Ajustado para ocupar a tela inteira */
+  overflow: hidden;
+  z-index: 2;
+  background-image: url('../../../assets/heroSection/churrasqueria.jpg');
+  background-size: cover;
+  
+  background-position: center; /* Centraliza a imagem de fundo */
+  background-attachment: fixed; /* Fixa a imagem de fundo */
 }
 
 .hero-image {
@@ -43,5 +49,18 @@
     filter: invert(2);
   }
   
+
+  .hero-container {
+    position: relative;
+    margin-top: -100px;
+    width: 100%;
+    height: 110vh; /* Ajustado para ocupar a tela inteira */
+    overflow: hidden;
+    background-image: url('');
+    background-size: 100%;
+    
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-attachment: fixed; /* Fixa a imagem de fundo */
+  }
 
 }

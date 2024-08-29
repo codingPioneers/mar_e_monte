@@ -14,7 +14,7 @@ const Header = () => {
     <>
 
       <div className="hero-container">
-      <img src={hero} alt="Hero" className="hero-image" />
+
       <div className="hero-overlay">
       <img src={logo} alt="Hero" className="hero-image" />
 

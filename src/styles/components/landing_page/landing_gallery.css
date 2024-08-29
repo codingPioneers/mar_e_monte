@@ -1,14 +1,17 @@
 .gallery-container {
   height: 90vh;
   overflow: hidden;
-  margin: 10% 0rem;
   background-color: #394248;
-  padding: 3rem 1rem;
+  padding: 7vh 1rem;
+  margin-bottom: 60vh;
+  align-items: flex-start;
+  display: flex;
 
 }
 
 .gallery-grid {
   display: grid;
+  height: 80vh;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }

@@ -57,6 +57,7 @@ html, body {
 }
 
 .contact-section {
+  margin: 4rem 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

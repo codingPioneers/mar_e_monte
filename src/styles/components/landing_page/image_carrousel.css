@@ -1,9 +1,16 @@
+
+.supplier-container{
+
+  width: 100%;
+  background-color: white;
+}
 .supplier-carousel {
     background-color: #fff;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     box-sizing: border-box;
     overflow: hidden;
-    margin-bottom: 5rem;
+    padding:15vh 0;
   }
   
 
@@ -32,9 +39,7 @@
   }
   
   @media screen and (max-width: 950px) {
-    .supplier-carousel {
-      width: 100%;
-    }
+   
   
     .supplier-carousel img {
       max-height: 90px;
